@@ -15,4 +15,3 @@ jobs:
           options: "--check --diff --isort --color"
           src: "."
           version: "~=2.1.1"
-          lint: "black"
