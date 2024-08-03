@@ -10,7 +10,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v5
-      - uses: akaihola/darker@2.1.1
+      - uses: akaihola/darker@v2.1.1
         with:
           options: "--check --diff --isort --color"
           src: "."
